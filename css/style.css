@@ -15,6 +15,10 @@ a {
     flex-wrap: wrap;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* end global classes */
 
 /* start navbar */
@@ -36,11 +40,23 @@ a {
     margin: 0;
 }
 
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
-
+    display: block;
 }
+
+.nav .social {
+    padding: 1.4rem 0;
+}
+
+
 
 /* end navbar */
 
