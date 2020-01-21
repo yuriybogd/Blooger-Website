@@ -8,8 +8,7 @@
 
 
     <!-- FontAwesome CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"">
-
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Own CSS -->
     <link rel=" stylesheet" href="/css/style.css">
 
@@ -18,14 +17,18 @@
   
   <body>
     
-    <!-- Start Navigation -->
-
+    <!-- Start of Navigation -->
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
                 <a href="#" class="text-gray">
                     Blooger
                 </a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
             <div>
                 <ul class="nav-items">
@@ -48,18 +51,38 @@
             </div>
             <div class="social text-gray">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#">I</a>
-                <a href="#">T</a>
-                <a href="#">Y</a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </nav>
-
-    <!-- End Navigation -->
-
+    <!-- End of Navigation -->
 
 
-    </script>
+    <!-- start of Main Site Section -->
+    <main>
+
+        <!-- Start of Site Title -->
+        <section class="site-title">
+            <div class="site-background">
+                <h3>
+                    Tours & Travels
+                </h3>
+                <h1>
+                    Amazing Place on Earth
+                </h1>
+                <button class="btn">
+                    Explore
+                </button>
+            </div>
+        </section>
+        <!-- End of Site Title -->
+
+    </main>
+    <!-- end of Main Site Section -->
+
+    <script src="/js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
